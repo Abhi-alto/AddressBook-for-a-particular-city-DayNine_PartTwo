@@ -9,4 +9,5 @@ Console.WriteLine("Welcome to Address Book Program in Address Book Main class on
 Console.WriteLine("Enter the details to create a contact");
 addressBook obj = new addressBook();
 obj.create();
+obj.create();
 obj.display();

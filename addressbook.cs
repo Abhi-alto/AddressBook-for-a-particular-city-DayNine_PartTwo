@@ -8,10 +8,10 @@ namespace Addressbook
 {
     public class addressBook
     {
-         List<contact> add_book = new List<contact>();
+         List<contact> add_book = new List<contact>();          //created an address book list of contact class type
         public void create()
         {
-            contact Contact = new contact();
+            contact Contact = new contact();                    //created an object of the Contact class and added contact details
             Console.WriteLine("Enter your first name");
             Contact.first_name = Console.ReadLine();
             Console.WriteLine("Enter your second name");
@@ -30,7 +30,7 @@ namespace Addressbook
             Contact.email = Console.ReadLine();
             add_book.Add(Contact);
         }
-        public void display()
+        public void display()               //displaying details of each conatact
         {
             foreach(var data in add_book )
             {
