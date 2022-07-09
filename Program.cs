@@ -15,5 +15,5 @@ Console.WriteLine("Enter the first name of the contact you want to edit the deta
 string Firstname = Console.ReadLine();
 Console.WriteLine("Enter the second name of the contact you want to edit the details of");
 string s_name = Console.ReadLine();
-obj.edit(Firstname, s_name);
+obj.delete(Firstname, s_name);
 obj.display();
